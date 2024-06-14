@@ -1,6 +1,8 @@
 /* Custom styles */
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
@@ -20,5 +22,45 @@ body {
 
 footer {
     background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+/* Transparent Header */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above other content */
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header .nav-item {
+    margin-right: 1rem;
+}
+
+header .nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
     color: #fff;
 }
