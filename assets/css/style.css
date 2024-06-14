@@ -9,7 +9,7 @@ body {
 }
 
 .hero {
-    background: url('images/new-zealand-08.jpg') no-repeat center center/cover;
+    background: url('../images/new-zealand-08.jpg') no-repeat center center/cover;
     color: #fff;
     padding: 4rem 0;
 }
