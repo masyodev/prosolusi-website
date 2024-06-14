@@ -1,86 +1,105 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProSolusi - Beranda</title>
+    <title>ProSolusi</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <div class="logo">ProSolusi</div>
-        <nav>
-            <ul>
-                <li><a href="#">Beranda</a></li>
-                <li><a href="#">Layanan</a></li>
-                <li><a href="#">Tentang Kami</a></li>
-                <li><a href="#">Portofolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Kontak</a></li>
-            </ul>
-        </nav>
-        <a href="#" class="cta-button">Hubungi Kami</a>
+    <header class="bg-dark text-white p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="logo">ProSolusi</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Layanan</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Portofolio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Kontak</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn btn-primary">Hubungi Kami</a>
+        </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <h1>Selamat Datang di ProSolusi</h1>
-        <p>Solusi Terbaik untuk Kebutuhan Anda</p>
-        <a href="#" class="cta-button">Pelajari Lebih Lanjut</a>
+    <section class="hero bg-primary text-white text-center p-5">
+        <div class="container">
+            <h1 class="display-4">Selamat Datang di ProSolusi</h1>
+            <p class="lead">Solusi Terbaik untuk Kebutuhan Anda</p>
+            <a href="#" class="btn btn-light btn-lg">Pelajari Lebih Lanjut</a>
+        </div>
     </section>
 
     <!-- Sekilas tentang ProSolusi -->
-    <section class="about">
-        <h2>Sekilas tentang ProSolusi</h2>
-        <p>ProSolusi adalah perusahaan yang menyediakan layanan terbaik untuk kebutuhan teknologi dan bisnis Anda.</p>
+    <section class="about py-5">
+        <div class="container text-center">
+            <h2>Sekilas tentang ProSolusi</h2>
+            <p>ProSolusi adalah perusahaan yang menyediakan layanan terbaik untuk kebutuhan teknologi dan bisnis Anda.</p>
+        </div>
     </section>
 
     <!-- Layanan Unggulan -->
-    <section class="services">
-        <h2>Layanan Unggulan</h2>
-        <div class="service">
-            <h3>Layanan 1</h3>
-            <p>Deskripsi singkat layanan 1.</p>
-        </div>
-        <div class="service">
-            <h3>Layanan 2</h3>
-            <p>Deskripsi singkat layanan 2.</p>
-        </div>
-        <div class="service">
-            <h3>Layanan 3</h3>
-            <p>Deskripsi singkat layanan 3.</p>
+    <section class="services py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <h3>Layanan 1</h3>
+                    <p>Deskripsi singkat layanan 1.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3>Layanan 2</h3>
+                    <p>Deskripsi singkat layanan 2.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3>Layanan 3</h3>
+                    <p>Deskripsi singkat layanan 3.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Portofolio / Testimonial -->
-    <section class="portfolio">
-        <h2>Portofolio / Testimonial</h2>
-        <div class="portfolio-item">
-            <h3>Proyek 1</h3>
-            <p>Deskripsi proyek 1.</p>
-        </div>
-        <div class="portfolio-item">
-            <h3>Proyek 2</h3>
-            <p>Deskripsi proyek 2.</p>
-        </div>
-        <div class="portfolio-item">
-            <h3>Proyek 3</h3>
-            <p>Deskripsi proyek 3.</p>
+    <section class="portfolio py-5">
+        <div class="container">
+            <h2 class="text-center">Portofolio / Testimonial</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Proyek 1</h3>
+                    <p>Deskripsi proyek 1.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Proyek 2</h3>
+                    <p>Deskripsi proyek 2.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Proyek 3</h3>
+                    <p>Deskripsi proyek 3.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Blog atau Berita Terbaru -->
-    <section class="blog">
-        <h2>Blog atau Berita Terbaru</h2>
-        <p>Update terbaru dari blog atau berita perusahaan.</p>
+    <section class="blog py-5 bg-light">
+        <div class="container text-center">
+            <h2>Blog atau Berita Terbaru</h2>
+            <p>Update terbaru dari blog atau berita perusahaan.</p>
+        </div>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <p>Informasi Kontak | Link Cepat | Media Sosial | &copy; 2024 ProSolusi</p>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 ProSolusi. Informasi Kontak | Link Cepat | Media Sosial</p>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
