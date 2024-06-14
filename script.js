@@ -1,2 +1,9 @@
-// Untuk saat ini, tidak ada kode JavaScript khusus yang diperlukan
-// Anda dapat menambahkan kode JavaScript di sini jika diperlukan nanti
+// Contoh animasi scroll
+$(document).ready(function() {
+    $('.cta-button').on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top
+        }, 500);
+    });
+});
