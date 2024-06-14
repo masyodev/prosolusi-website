@@ -27,16 +27,13 @@ footer {
 }
 
 /* Transparent Header */
-.bg-dark {
-    background-color: rgba(0, 0, 0, 0.5) !important; /* Transparent black background */
-}
-
 header {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000; /* Ensure it's above other content */
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
     padding: 1rem 0;
 }
 
